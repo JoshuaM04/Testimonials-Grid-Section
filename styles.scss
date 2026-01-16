@@ -34,9 +34,17 @@ body {
     }
     .box1 {
             background-color: hsl(263, 55%, 52%);
+
+            h1, p {
+                color: hsl(214, 17%, 92%);
+            }
     }
     .box2 {
-        background-color: hsl(224, 10%, 45%);
+        background-color: hsl(217, 19%, 35%);
+
+        h1, p {
+                color: hsl(214, 17%, 92%);
+        }
     }
     .box3 {
         background-color: hsl(0, 0%, 100%);
