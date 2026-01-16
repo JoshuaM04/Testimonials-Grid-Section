@@ -6,4 +6,18 @@
 
 body {
   font-family: "Barlow Semi Condensed";
+}
+
+.parent {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 1rem;
+  background-color: none;
+}
+.parent section {
+  border-style: solid;
+}
+.parent section h1 {
+  font-size: 1rem;
 }/*# sourceMappingURL=styles.css.map */

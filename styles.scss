@@ -6,3 +6,18 @@
 body {
     font-family: "Barlow Semi Condensed";
 }
+.parent {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 1rem;
+    background-color: none;
+
+    section {
+        border-style: solid;
+
+        h1 {
+            font-size: 1rem;
+        }
+    }
+}
