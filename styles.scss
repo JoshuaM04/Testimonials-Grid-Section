@@ -24,7 +24,21 @@ body {
         padding: 2rem;
 
         .header {
+            display: flex;
+            align-items: center;
             margin-bottom: 1rem;
+
+            img {
+                margin-right: 1rem;
+                border-radius: 50%;
+                width: 2rem;
+            }
+
+            .header-information {
+                .name {
+                    font-weight: 500;
+                }
+            }
         }
         h1 {
             font-size: 1rem;

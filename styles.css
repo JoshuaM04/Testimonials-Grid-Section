@@ -25,7 +25,17 @@ body {
   padding: 2rem;
 }
 .parent section .header {
+  display: flex;
+  align-items: center;
   margin-bottom: 1rem;
+}
+.parent section .header img {
+  margin-right: 1rem;
+  border-radius: 50%;
+  width: 2rem;
+}
+.parent section .header .header-information .name {
+  font-weight: 500;
 }
 .parent section h1 {
   font-size: 1rem;
