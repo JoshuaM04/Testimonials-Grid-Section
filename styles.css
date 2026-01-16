@@ -3,20 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+* p {
+  font-size: 0.813rem;
+}
 
 body {
   font-family: "Barlow Semi Condensed";
+  background-color: hsl(0, 0%, 81%);
 }
 
 .parent {
   margin: 2rem;
   display: grid;
   grid-template-columns: auto;
-  grid-row-gap: 1rem;
+  grid-row-gap: 2rem;
   background-color: none;
 }
 .parent section {
-  border-style: solid;
+  border-style: none;
+  border-radius: 0.5rem;
   padding: 2rem;
 }
 .parent section .header {
@@ -24,5 +29,21 @@ body {
 }
 .parent section h1 {
   font-size: 1rem;
+  font-weight: 600;
   margin-bottom: 1rem;
+}
+.parent .box1 {
+  background-color: hsl(263, 55%, 52%);
+}
+.parent .box2 {
+  background-color: hsl(224, 10%, 45%);
+}
+.parent .box3 {
+  background-color: hsl(0, 0%, 100%);
+}
+.parent .box4 {
+  background-color: hsl(219, 29%, 14%);
+}
+.parent .box5 {
+  background-color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=styles.css.map */
