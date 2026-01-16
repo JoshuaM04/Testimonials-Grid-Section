@@ -47,23 +47,28 @@ body {
         }
     }
     .box1 {
-            background-color: hsl(263, 55%, 52%);
+        background-color: hsl(263, 55%, 52%);
 
-            h1, p {
-                color: hsl(214, 17%, 92%);
-            }
-            .id {
-                color: hsl(0, 0%, 81%);
-            }
+        h1, p {
+            color: hsl(214, 17%, 92%);
+        }
+        .id {
+            color: hsl(0, 0%, 81%);
+        }
+        img {
+            border-style: solid;
+            border-width: .1rem;
+            border-color: hsl(264, 82%, 80%);
+        }
     }
     .box2 {
         background-color: hsl(217, 19%, 35%);
 
         h1, p {
-                color: hsl(214, 17%, 92%);
+            color: hsl(214, 17%, 92%);
         }
         .id {
-                color: hsl(0, 0%, 81%);
+            color: hsl(0, 0%, 81%);
         }
     }
     .box3 {
@@ -71,6 +76,12 @@ body {
     }
     .box4 {
         background-color: hsl(219, 29%, 14%);
+
+        img {
+            border-style: solid;
+            border-width: .1rem;
+            border-color: hsl(263, 55%, 52%);
+        }
     }
     .box5 {
         background-color: hsl(0, 0%, 100%);
