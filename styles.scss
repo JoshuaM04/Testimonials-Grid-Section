@@ -49,6 +49,9 @@ body {
             margin-bottom: 1rem;
         }
     }
+    .box1, .box2, .box3, .box4, .box5 {
+        box-shadow: 0px 1px 10px -2px hsl(224, 10%, 45%);
+    }
     .box1 {
         background-color: hsl(263, 55%, 52%);
         max-width: 16rem;

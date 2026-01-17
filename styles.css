@@ -45,6 +45,9 @@ body {
   font-weight: 600;
   margin-bottom: 1rem;
 }
+.parent .box1, .parent .box2, .parent .box3, .parent .box4, .parent .box5 {
+  box-shadow: 0px 1px 10px -2px hsl(224, 10%, 45%);
+}
 .parent .box1 {
   background-color: hsl(263, 55%, 52%);
   max-width: 16rem;
