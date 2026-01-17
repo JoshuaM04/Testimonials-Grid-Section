@@ -135,4 +135,9 @@ body {
   .parent .box2, .parent .box3 {
     max-width: 13.7rem;
   }
+  .parent .box1 {
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+  }
 }/*# sourceMappingURL=styles.css.map */
