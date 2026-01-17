@@ -8,7 +8,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   font-family: "Barlow Semi Condensed";
   background-color: hsl(0, 0%, 81%);
   display: flex;
@@ -20,7 +20,6 @@ body {
   margin: 2rem;
   display: grid;
   grid-template-columns: auto;
-  grid-row-gap: 2rem;
   background-color: none;
 }
 .parent section {
@@ -48,7 +47,9 @@ body {
 }
 .parent .box1 {
   background-color: hsl(263, 55%, 52%);
-  max-width: 28rem;
+  max-width: 16rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .parent .box1 h1, .parent .box1 p {
   color: hsl(214, 17%, 92%);
@@ -63,7 +64,8 @@ body {
 }
 .parent .box2 {
   background-color: hsl(217, 19%, 35%);
-  max-width: 13.7rem;
+  max-width: 16rem;
+  margin-bottom: 2rem;
 }
 .parent .box2 h1, .parent .box2 p {
   color: hsl(214, 17%, 92%);
@@ -73,14 +75,16 @@ body {
 }
 .parent .box3 {
   background-color: hsl(0, 0%, 100%);
-  max-width: 13.7rem;
+  max-width: 16rem;
+  margin-bottom: 2rem;
 }
 .parent .box3 h1, .parent .box3 p, .parent .box3 .id {
   color: hsl(224, 10%, 45%);
 }
 .parent .box4 {
   background-color: hsl(219, 29%, 14%);
-  max-width: 28rem;
+  max-width: 16rem;
+  margin-bottom: 2rem;
 }
 .parent .box4 img {
   border-style: solid;
@@ -93,6 +97,7 @@ body {
 .parent .box5 {
   background-color: hsl(0, 0%, 100%);
   max-width: 16rem;
+  margin-bottom: 2rem;
 }
 .parent h1, .parent p {
   color: hsl(217, 19%, 35%);
@@ -117,5 +122,11 @@ body {
   }
   .parent .box1, .parent .box2, .parent .box3, .parent .box4, .parent .box5 {
     margin: 1rem;
+  }
+  .parent .box1, .parent .box4 {
+    max-width: 28rem;
+  }
+  .parent .box2, .parent .box3 {
+    max-width: 13.7rem;
   }
 }/*# sourceMappingURL=styles.css.map */

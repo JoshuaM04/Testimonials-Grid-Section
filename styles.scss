@@ -8,7 +8,7 @@
     }
 }
 body {
-    height: 100vh;
+    height: 100%;
     font-family: "Barlow Semi Condensed";
     background-color: hsl(0, 0%, 81%);
     display: flex;
@@ -19,7 +19,6 @@ body {
     margin: 2rem;
     display: grid;
     grid-template-columns: auto;
-    grid-row-gap: 2rem;
     background-color: none;
 
     section {
@@ -52,7 +51,9 @@ body {
     }
     .box1 {
         background-color: hsl(263, 55%, 52%);
-        max-width: 28rem;
+        max-width: 16rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
 
         h1, p {
             color: hsl(214, 17%, 92%);
@@ -68,7 +69,8 @@ body {
     }
     .box2 {
         background-color: hsl(217, 19%, 35%);
-        max-width: 13.7rem;
+        max-width: 16rem;
+        margin-bottom: 2rem;
 
         h1, p {
             color: hsl(214, 17%, 92%);
@@ -79,7 +81,8 @@ body {
     }
     .box3 {
         background-color: hsl(0, 0%, 100%);
-        max-width: 13.7rem;
+        max-width: 16rem;
+        margin-bottom: 2rem;
 
         h1, p, .id {
             color: hsl(224, 10%, 45%);
@@ -87,7 +90,8 @@ body {
     }
     .box4 {
         background-color: hsl(219, 29%, 14%);
-        max-width: 28rem;
+        max-width: 16rem;
+        margin-bottom: 2rem;
 
         img {
             border-style: solid;
@@ -101,6 +105,7 @@ body {
     .box5 {
         background-color: hsl(0, 0%, 100%);
         max-width: 16rem;
+        margin-bottom: 2rem;
     }
     h1, p {
             color: hsl(217, 19%, 35%);
@@ -127,6 +132,12 @@ body {
 
         .box1, .box2, .box3, .box4, .box5 {
             margin: 1rem;
+        }
+        .box1, .box4 {
+            max-width: 28rem;
+        }
+        .box2, .box3 {
+            max-width: 13.7rem;
         }
     }
 }
