@@ -73,6 +73,10 @@ body {
     }
     .box3 {
         background-color: hsl(0, 0%, 100%);
+
+        h1, p, .id {
+            color: hsl(224, 10%, 45%);
+        }
     }
     .box4 {
         background-color: hsl(219, 29%, 14%);
@@ -82,8 +86,17 @@ body {
             border-width: .1rem;
             border-color: hsl(263, 55%, 52%);
         }
+        h1, p, .id {
+            color: hsl(0, 0%, 81%);
+        }
     }
     .box5 {
         background-color: hsl(0, 0%, 100%);
+    }
+    h1, p {
+            color: hsl(217, 19%, 35%);
+    }
+    .id {
+        color: hsl(224, 10%, 45%);
     }
 }

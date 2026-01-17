@@ -68,6 +68,9 @@ body {
 .parent .box3 {
   background-color: hsl(0, 0%, 100%);
 }
+.parent .box3 h1, .parent .box3 p, .parent .box3 .id {
+  color: hsl(224, 10%, 45%);
+}
 .parent .box4 {
   background-color: hsl(219, 29%, 14%);
 }
@@ -76,6 +79,15 @@ body {
   border-width: 0.1rem;
   border-color: hsl(263, 55%, 52%);
 }
+.parent .box4 h1, .parent .box4 p, .parent .box4 .id {
+  color: hsl(0, 0%, 81%);
+}
 .parent .box5 {
   background-color: hsl(0, 0%, 100%);
+}
+.parent h1, .parent p {
+  color: hsl(217, 19%, 35%);
+}
+.parent .id {
+  color: hsl(224, 10%, 45%);
 }/*# sourceMappingURL=styles.css.map */
