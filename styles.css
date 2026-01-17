@@ -8,8 +8,12 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Barlow Semi Condensed";
   background-color: hsl(0, 0%, 81%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .parent {
@@ -59,7 +63,7 @@ body {
 }
 .parent .box2 {
   background-color: hsl(217, 19%, 35%);
-  max-width: 15rem;
+  max-width: 13.7rem;
 }
 .parent .box2 h1, .parent .box2 p {
   color: hsl(214, 17%, 92%);
@@ -69,7 +73,7 @@ body {
 }
 .parent .box3 {
   background-color: hsl(0, 0%, 100%);
-  max-width: 15rem;
+  max-width: 13.7rem;
 }
 .parent .box3 h1, .parent .box3 p, .parent .box3 .id {
   color: hsl(224, 10%, 45%);
@@ -95,4 +99,23 @@ body {
 }
 .parent .id {
   color: hsl(224, 10%, 45%);
+}
+
+@media (min-width: 87.5rem) {
+  .parent {
+    display: flex;
+  }
+  .parent .special-parent-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .parent .special-parent-container .special-child-container-top {
+    display: flex;
+  }
+  .parent .special-parent-container .special-child-container-bottom {
+    display: flex;
+  }
+  .parent .box1, .parent .box2, .parent .box3, .parent .box4, .parent .box5 {
+    margin: 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
