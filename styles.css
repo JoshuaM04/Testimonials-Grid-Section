@@ -109,7 +109,7 @@ body {
   color: hsl(224, 10%, 45%);
 }
 
-@media (min-width: 87.5rem) {
+@media (min-width: 68.75rem) {
   body {
     height: 100vh;
   }
