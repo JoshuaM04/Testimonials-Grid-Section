@@ -115,6 +115,9 @@ body {
     }
 }
 @media (min-width: 87.5rem) {
+    body {
+        height: 100vh;
+    }
     .parent {
         display: flex;
 
